@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
-namespace DesignPatterns.test
+namespace DesignPatterns.test.Ken
 {
     [TestClass]
     public class TestSingleton
@@ -30,7 +30,7 @@ namespace DesignPatterns.test
 
             Thread.Sleep(2000);
             Console.WriteLine(taskSet.Count);
-            
+
         }
     }
 }
